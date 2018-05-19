@@ -1,6 +1,10 @@
 # Antergos-bot
 Antergos Telegram Bot
 
-Telegram Bot that forwards Antergos Alerts to a Telegram channel
+Telegram Bot that forwards Antergos alerts to a Telegram channel
 
-[t.me/antergos_alerts](t.me/antergos_alerts)
+[http://t.me/antergos_alerts](http://t.me/antergos_alerts)
+
+# Dependencies
+
+antergos-alerts
