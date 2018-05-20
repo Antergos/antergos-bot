@@ -34,8 +34,8 @@ def setup_logging():
 
     logger.handlers = []
 
-    log_level = logging.DEBUG
-    #log_level = logging.INFO
+    #log_level = logging.DEBUG
+    log_level = logging.INFO
 
     logger.setLevel(log_level)
 

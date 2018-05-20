@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #
-# antergos-bot.py
+# antergos-bot
 #
 # Copyright © 2018 Antergos
 #
@@ -29,7 +29,6 @@ import logging
 import os
 
 from telegram.ext import Updater, CommandHandler
-#from telegram.ext import MessageHandler, Filters
 
 import botlog
 import alerts
