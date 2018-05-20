@@ -27,6 +27,7 @@
 from datetime import timedelta
 import logging
 import os
+import sys
 
 from telegram.ext import Updater, CommandHandler
 
@@ -62,8 +63,10 @@ class AntergosBot(object):
             job_queue.run_repeating(self.show_alerts_job, timedelta(minutes=60))
         except KeyError as err:
             logging.error(err)
+            sys.exit(1)
         except telegram.error.Unauthorized as err:
             logging.error(err)
+            sys.exit(1)
 
     def run(self):
         """ Starts bot """
